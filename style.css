@@ -180,26 +180,51 @@ button {
   gap: 25px;
 }
 
+/* Brand logo and wordmark */
 .brand {
   display: inline-flex;
   align-items: center;
   gap: 11px;
-  flex-shrink: 0;
+  flex: 0 0 auto;
+  min-width: 0;
+  border-radius: 8px;
 }
 
 .brand img {
-  width: 14%;
+  display: block;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  object-fit: contain;
+  object-position: center;
+  transition: transform .2s ease, filter .2s ease;
+}
 
+.brand:hover img {
+  transform: translateY(-1px);
+  filter: drop-shadow(0 0 9px rgba(184, 255, 59, .18));
+}
+
+.brand:focus-visible {
+  outline: 2px solid var(--lime);
+  outline-offset: 5px;
 }
 
 .brand-word {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  min-width: 0;
+  color: var(--text);
   font-family: var(--font-head);
   font-size: 21px;
   font-weight: 800;
   line-height: 1.05;
   letter-spacing: -.06em;
+  white-space: nowrap;
+}
+
+/* Keep WireFizz on one line and accent the Fizz part of the wordmark. */
+.brand-word > span {
+  color: var(--lime);
 }
 
 .brand-title {
@@ -214,10 +239,11 @@ button {
 }
 
 .brand-word small {
+  display: block;
+  margin-top: 6px;
   color: #778997;
   font: 700 7px var(--font-body);
   letter-spacing: .19em;
-  margin-top: 6px;
 }
 
 .main-nav {
@@ -2689,6 +2715,7 @@ button {
 .footer-brand img {
   width: 38px;
   height: 38px;
+  flex-basis: 38px;
 }
 
 .footer-main>p {
@@ -3212,6 +3239,7 @@ button {
   .brand img {
     width: 36px;
     height: 36px;
+    flex-basis: 36px;
   }
 
   .brand-word {
