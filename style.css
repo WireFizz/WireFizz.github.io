@@ -2695,7 +2695,6 @@ button {
 }
 
 .footer-brand img {
-  width: var(--logo-size-footer);
   height: var(--logo-size-footer);
   flex: 0 0 var(--logo-size-footer);
   object-fit: contain;
