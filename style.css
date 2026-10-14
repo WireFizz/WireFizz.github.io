@@ -534,7 +534,7 @@ button {
 }
 
 .wf {
-  width: 150px;       /* Sets the width of the logo */
+  width: 15px;       /* Sets the width of the logo */
   height: auto;       /* Maintains the aspect ratio */
   border-radius: 8px; /* Rounds the corners */
 }
