@@ -193,7 +193,6 @@ button {
 }
 
 .brand img {
-  width: var(--logo-size);
   height: var(--logo-size);
   flex: 0 0 var(--logo-size);
   max-width: none;
