@@ -64,7 +64,17 @@
   margin: 0;
   padding: 0;
 }
-
+/* Integration section — central WireFizz logo */
+.eco-center .integration-logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+  max-width: none;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 0 8px;
+  flex-shrink: 0;
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 96px;
