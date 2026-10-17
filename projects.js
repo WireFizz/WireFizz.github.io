@@ -1,5 +1,6 @@
 /*
   WIREFIZZ PORTFOLIO — easy project setup
+  Use the exact category label "Websites" for every website project so they share one filter.
   ---------------------------------------
   Put project screenshots inside assets/projects/.
   Each project can have 4+ screenshots in its `gallery` array. The first one is used
@@ -8,65 +9,64 @@
 */
 window.WIREFIZZ_PROJECTS = [
   {
-    id: "flowboard-crm",
-    title: "Flowboard — Lead Management",
-    category: "Web Apps",
-    type: "Demo concept",
-    description: "A sample lead and admissions workspace that brings enquiries, follow-ups, and application progress into one clear view.",
-    image: "assets/projects/flowboard-crm.svg",
+    id: "assets-marketing-website",
+    title: "Assets Marketing — Website",
+    category: "Websites",
+    description: "A modern real estate platform that brings property listings, client enquiries, site visits, and sales progress into one seamless experience.",
+    image: "assets/projects/flowboard-crm.png",
     alt: "Flowboard CRM overview dashboard preview",
     gallery: [
-      { src: "assets/projects/flowboard-crm.svg", label: "Overview", alt: "Lead management overview dashboard" },
-      { src: "assets/projects/flowboard-crm-pipeline.svg", label: "Lead pipeline", alt: "Lead pipeline with new, contacted, qualified, and won columns" },
-      { src: "assets/projects/flowboard-crm-lead-detail.svg", label: "Lead profile", alt: "Lead contact profile with recent activity and details" },
-      { src: "assets/projects/flowboard-crm-reports.svg", label: "Reports", alt: "Lead conversion and source performance reports" }
+      { src: "assets/projects/flowboard-crm.png", label: "Overview", alt: "Lead management overview dashboard" },
+      { src: "assets/projects/flowboard-crm-pipeline.png", label: "Lead pipeline", alt: "Lead pipeline with new, contacted, qualified, and won columns" },
+      { src: "assets/projects/flowboard-crm-lead-detail.png", label: "Lead profile", alt: "Lead contact profile with recent activity and details" },
+      { src: "assets/projects/flowboard-crm-reports.png", label: "Reports", alt: "Lead conversion and source performance reports" }
     ],
     tags: ["React", "Flask", "PostgreSQL"],
-    note: "Illustrative CRM interface with no login required to view the portfolio preview.",
+    note: "Explore a modern real estate interface showcasing property listings, client enquiries, and sales management features.",
     featured: true,
     demoUrl: "",
-    sourceUrl: ""
+    sourceUrl: "https://www.assetsmarketing.pk/yeh"
   },
+
   {
     id: "pulse-analytics",
-    title: "Pulse — Business Analytics",
-    category: "Dashboards",
-    type: "Demo concept",
-    description: "A dark-mode analytics dashboard concept that brings revenue trends, audience signals, and performance indicators together.",
-    image: "assets/projects/pulse-analytics.svg",
+    title: "Lead Management Software",
+    category: "CRM/LMS",
+    description: "A modern dark-mode dashboard that brings lead tracking, follow-ups, and application progress together in one organized workspace.",
+    image: "assets/projects/pulse-analytics.png",
     alt: "Pulse business intelligence dashboard preview",
     gallery: [
-      { src: "assets/projects/pulse-analytics.svg", label: "Overview", alt: "Pulse analytics overview with revenue and performance cards" },
-      { src: "assets/projects/pulse-analytics-revenue.svg", label: "Revenue", alt: "Revenue trends and top product performance dashboard" },
-      { src: "assets/projects/pulse-analytics-channels.svg", label: "Acquisition", alt: "Customer acquisition channel performance and audience engagement" },
-      { src: "assets/projects/pulse-analytics-report.svg", label: "Reports", alt: "Custom report builder with monthly performance metrics" }
+      { src: "assets/projects/pulse-analytics.PNG", label: "Overview", alt: "Pulse analytics overview with revenue and performance cards" },
+      { src: "assets/projects/pulse-analytics-revenue.png", label: "Revenue", alt: "Revenue trends and top product performance dashboard" },
+      { src: "assets/projects/pulse-analytics-channels.png", label: "Acquisition", alt: "Customer acquisition channel performance and audience engagement" },
+      { src: "assets/projects/pulse-analytics-report.png", label: "Reports", alt: "Custom report builder with monthly performance metrics" }
     ],
     tags: ["Python", "SQL", "Data Visualization"],
-    note: "Sample dashboard images for portfolio presentation; all displayed metrics are fictional UI examples.",
+    note: "Preview the LMS dashboard interface with illustrative screens showcasing lead tracking, follow-ups, and application management. All displayed metrics are fictional examples for portfolio presentation..",
     featured: true,
     demoUrl: "",
-    sourceUrl: ""
+    sourceUrl: "https://wirefizz-lms.vercel.app/"
   },
   {
     id: "northstar-website",
-    title: "Northstar — Studio Website",
+    title: "NOVA — E-COMMERCE",
     category: "Websites",
-    type: "Demo concept",
-    description: "A calm, editorial-style website concept for a design studio, pairing confident typography with a distinctive visual story.",
-    image: "assets/projects/northstar-website.svg",
+    description: "A modern e-commerce website concept that combines clean layouts, elegant typography, and intuitive product browsing to create a seamless online shopping experience.",
+    image: "assets/projects/northstar-website.png",
     alt: "Northstar studio marketing website home page preview",
     gallery: [
-      { src: "assets/projects/northstar-website.svg", label: "Homepage", alt: "Northstar studio website home page concept" },
-      { src: "assets/projects/northstar-website-home.svg", label: "Hero section", alt: "Editorial studio homepage with featured visual and service links" },
-      { src: "assets/projects/northstar-website-services.svg", label: "Services", alt: "Northstar services page with service cards" },
-      { src: "assets/projects/northstar-website-work.svg", label: "Selected work", alt: "Northstar selected projects portfolio grid" }
+      { src: "assets/projects/northstar-website.png", label: "Homepage", alt: "Northstar studio website home page concept" },
+      { src: "assets/projects/northstar-website-home.png", label: "Hero section", alt: "Editorial studio homepage with featured visual and service links" },
+      { src: "assets/projects/northstar-website-services.png", label: "Services", alt: "Northstar services page with service cards" },
+      { src: "assets/projects/northstar-website-work.png", label: "Selected work", alt: "Northstar selected projects portfolio grid" }
     ],
     tags: ["HTML", "CSS", "JavaScript"],
-    note: "Sample marketing website design. Replace the concept with real, client-approved screenshots when available.",
+    note: "A showcase of the NOVA e-commerce website concept, featuring product displays, modern layouts, and a streamlined shopping experience. Replace concept visuals with real, client-approved screenshots when available.",
     featured: true,
     demoUrl: "",
-    sourceUrl: ""
+    sourceUrl: "https://wirefizz.github.io/NOVA/"
   },
+  
   {
     id: "answerly-ai",
     title: "Answerly — AI Support Assistant",
