@@ -36,7 +36,7 @@ window.WIREFIZZ_PROJECTS = [
     image: "assets/projects/pulse-analytics.png",
     alt: "Pulse business intelligence dashboard preview",
     gallery: [
-      { src: "assets/projects/pulse-analytics.PNG", label: "Overview", alt: "Pulse analytics overview with revenue and performance cards" },
+      { src: "assets/projects/pulse-analytics.png", label: "Overview", alt: "Pulse analytics overview with revenue and performance cards" },
       { src: "assets/projects/pulse-analytics-revenue.png", label: "Revenue", alt: "Revenue trends and top product performance dashboard" },
       { src: "assets/projects/pulse-analytics-channels.png", label: "Acquisition", alt: "Customer acquisition channel performance and audience engagement" },
       { src: "assets/projects/pulse-analytics-report.png", label: "Reports", alt: "Custom report builder with monthly performance metrics" }
